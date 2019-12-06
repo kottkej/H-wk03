@@ -58,6 +58,8 @@ function generate(length, characters) {
     //add password to display area 
     document.getElementById("display").value = password;
 }
+
+//Copy to the clipboard
 function copyText() {
     /* Get the text field */
     var copyText = document.getElementById("display");
